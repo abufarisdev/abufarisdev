@@ -43,7 +43,7 @@
 
 ### 🏆 MILESTONES
 
-- 🏅 SGPA: 8.86 in 1st semester  
+- 🏅 CGPA: 8.70 
 - 👨‍💻 GDG Kolkata member  
 - 💻 Campus Ambassador @ GirlScript Summer of Code 2025  
 - 🏆 Multiple quiz wins, chess player, FC Barcelona fan
