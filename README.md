@@ -18,11 +18,12 @@
 - 🎯 GOALS: Impactful open-source contributions  
 - ⚡ FUN: Chess, football, quizzes — always up for a challenge!
 
-- <p align="center">
-  <a href="https://discord.com/users/ac28a67ed065a42bb71757bb78348aab">
-    <img src="https://lanyard-profile-readme.vercel.app/api/ac28a67ed065a42bb71757bb78348aab">
+<p align="center">
+  <a href="https://discord.com/users/977204610341150762">
+    <img src="https://lanyard-profile-readme.vercel.app/api/977204610341150762?theme=dark&bg=1e1e2e&borderRadius=15px&animated=true&hideDiscrim=true">
   </a>
 </p>
+
 
 ---
 
