@@ -63,7 +63,6 @@
   <img src="./streak.svg" alt="GitHub Streak" width="48%" />
   <img src="https://github-profile-trophy.vercel.app/?username=abufarisdev&theme=radical&row=2&column=4" alt="GitHub Trophies" width="48%" />
 </p>
-
 ---
 
 ### 🏆 MILESTONES
