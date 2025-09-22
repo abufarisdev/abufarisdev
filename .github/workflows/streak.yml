@@ -19,7 +19,7 @@ jobs:
 
       - name: Commit streak image
         run: |
-          git config --local user.email "abufariskolkata@example.com"
+          git config --local user.email "abufariskolkata@gmail.com"
           git config --local user.name "Abu Faris"
           git add streak.svg
           git commit -m "Update GitHub streak image" || echo "No changes to commit"
