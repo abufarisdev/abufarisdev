@@ -2,7 +2,7 @@ name: Generate GitHub Streak Image
 
 on:
   schedule:
-    - cron: "0 0 * * *" # runs daily at midnight UTC
+    - cron: "0 0 * * *"
   push:
     branches:
       - main
@@ -13,14 +13,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install Node
+      - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 18
+
+      - name: Install streak generator
+        run: npm install -g github-readme-streak-stats
 
       - name: Generate streak image
         run: |
-          npx github-readme-streak-stats@latest \
+          github-readme-streak-stats \
             --user abufarisdev \
             --theme radical \
             --hide-border \
