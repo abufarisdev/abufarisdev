@@ -57,7 +57,8 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=abufarisdev&theme=radical" alt="GitHub Streak" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abufarisdev&theme=radical" alt="GitHub Streak" width="49%" />
+
   <img src="https://github-profile-trophy.vercel.app/?username=abufarisdev&theme=radical&row=2&column=4" alt="GitHub Trophies" width="41%" />
 </p>
 
