@@ -1,4 +1,4 @@
-name: Update README Stats
+name: Update GitHub Streak Stats
 
 on:
   schedule:
@@ -6,14 +6,14 @@ on:
   workflow_dispatch:      # Allow manual triggering
 
 jobs:
-  update-readme:
+  update-streak:
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_PAT }}  
+          token: ${{ secrets.GH_PAT }}
           persist-credentials: true
 
       - name: Set up Python
@@ -21,19 +21,16 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Generate streak SVG
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          pip install requests pytz
-
-      - name: Update README
-        run: |
-          # Replace this with your actual update script
-          python scripts/update_readme.py
+          python scripts/generate_streak_advanced.py
 
       - name: Commit and push changes
         run: |
           git config --local user.email "abufariskolkata@gmail.com"
           git config --local user.name "GitHub Actions"
-          git add .
-          git commit -m "Update README stats - $(date)" || exit 0
+          git add streak.svg
+          git commit -m "Update streak stats - $(date +'%Y-%m-%d')" || exit 0
           git push
