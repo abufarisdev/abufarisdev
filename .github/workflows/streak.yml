@@ -2,7 +2,7 @@ name: Generate GitHub Streak Image
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # daily at midnight UTC
   push:
     branches:
       - main
@@ -13,21 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-
-      - name: Install streak generator
-        run: npm install -g github-readme-streak-stats
-
-      - name: Generate streak image
+      - name: Download streak image
         run: |
-          github-readme-streak-stats \
-            --user abufarisdev \
-            --theme radical \
-            --hide-border \
-            --output streak.svg
+          curl -o streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=abufarisdev&theme=radical"
 
       - name: Commit streak image
         run: |
@@ -36,3 +24,4 @@ jobs:
           git add streak.svg
           git commit -m "Update GitHub streak image" || echo "No changes to commit"
           git push
+
