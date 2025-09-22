@@ -52,15 +52,17 @@
 
 <p align="center">
   <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=abufarisdev&show_icons=true&theme=radical" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=abufarisdev&theme=ambient_gradient&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" width="48%" />
   
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abufarisdev&layout=compact&theme=radical" alt="Top Languages" width="48%" />
+  <!-- Streak Stats -->
+  <img src="https://nirzak-streak-stats.vercel.app/?user=abufarisdev&theme=ambient_gradient&hide_border=false" alt="GitHub Streak" width="48%" />
 </p>
 
 <p align="center">
-  <!-- Streak & Trophies -->
-  <img src="./streak.svg" alt="GitHub Streak" width="48%" />
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abufarisdev&theme=ambient_gradient&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" width="48%" />
+  
+  <!-- Trophies -->
   <img src="https://github-profile-trophy.vercel.app/?username=abufarisdev&theme=radical&row=2&column=4" alt="GitHub Trophies" width="48%" />
 </p>
 ---
