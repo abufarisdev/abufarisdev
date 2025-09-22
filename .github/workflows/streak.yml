@@ -1,28 +1,39 @@
-name: Generate GitHub Streak Image
+name: Update README Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # daily at midnight UTC
-  push:
-    branches:
-      - main
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
+  workflow_dispatch:      # Allow manual triggering
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}  
+          persist-credentials: true
 
-      - name: Download streak image
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
         run: |
-          curl -o streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=abufarisdev&theme=radical"
+          pip install requests pytz
 
-      - name: Commit streak image
+      - name: Update README
+        run: |
+          # Replace this with your actual update script
+          python scripts/update_readme.py
+
+      - name: Commit and push changes
         run: |
           git config --local user.email "abufariskolkata@gmail.com"
-          git config --local user.name "Abu Faris"
-          git add streak.svg
-          git commit -m "Update GitHub streak image" || echo "No changes to commit"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit -m "Update README stats - $(date)" || exit 0
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
