@@ -111,11 +111,3 @@
 </p>
 
 ---
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=4000&pause=1000&color=6B46C1&center=true&vCenter=true&width=500&lines=keep+building.;keep+dreaming.;code+with+purpose." />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/wave.svg" width="100%" />
-</p>
