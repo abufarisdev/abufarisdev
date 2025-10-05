@@ -79,6 +79,8 @@
 <p align="center">
   <!-- Top Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abufarisdev&theme=ambient_gradient&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" width="48%" />
+
+  [![GitHub Streak](https://streak-stats.demolab.com/?user=abufarisdev)](https://git.io/streak-stats)
   
   <!-- Trophies -->
   <img src="https://github-profile-trophy.vercel.app/?username=abufarisdev&theme=radical&row=2&column=4" alt="GitHub Trophies" width="48%" />
