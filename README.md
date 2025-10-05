@@ -75,10 +75,6 @@
 <p align="center">
   <!-- GitHub Stats -->
   <img src="https://github-readme-stats.vercel.app/api?username=abufarisdev&theme=ambient_gradient&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" width="48%" />
-  
-  <!-- Streak Stats -->
-  <img src="https://nirzak-streak-stats.vercel.app/?user=abufarisdev&theme=ambient_gradient&hide_border=false" alt="GitHub Streak" width="48%" />
-</p>
 
 <p align="center">
   <!-- Top Languages -->
