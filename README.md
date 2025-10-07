@@ -82,8 +82,7 @@
 
   [![GitHub Streak](https://streak-stats.demolab.com/?user=abufarisdev)](https://git.io/streak-stats)
   
-  <!-- Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=abufarisdev&theme=radical&row=2&column=4" alt="GitHub Trophies" width="48%" />
+
 </p>
 
 ---
