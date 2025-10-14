@@ -90,7 +90,7 @@
 ### ✦ activities
 - open source @ gssoc  @ssoc '25 @Hacktoberfest'25
 - gdg kolkata, gdg cloud kolkata, late-night hackathons  
-- ucl/laliga nights with fcb, occasionaly beating friends at chess.
+- ucl/laliga nights with fc barcelona, occasionaly beating friends at chess.
 ---
 
 ### ✦ connect
