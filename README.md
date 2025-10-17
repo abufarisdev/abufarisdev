@@ -16,7 +16,7 @@
 ### ✦ who i am
 - 🎓 2nd year b.tech cse @ svu, kolkata  
 - 🛠️ working with **next.js** , **react** and **typescript**
-- 🌀 exploring backend fundamentals & dsa  
+- 🌀 exploring backend fundamentals  
 - ♟️ chess, football, late-night code sprints  
 
 ---
